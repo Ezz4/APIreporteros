@@ -3,14 +3,10 @@ package com.dailybugle.daily_bugle1.service;
 
 import com.dailybugle.daily_bugle1.model.Reportero;
 import com.dailybugle.daily_bugle1.repository.ReporteroRepository;
-import jdk.javadoc.doclet.Reporter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
